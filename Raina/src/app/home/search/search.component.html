@@ -1,0 +1,13 @@
+<div class="container-fluid search-wrap">
+  <div class="search-input" (keyup.enter)="onSearch(name.value)">
+    <i class="fa fa-search"></i>
+    <input
+      type="text"
+      class="no-start-space"
+      #name
+      placeholder="Search the user"
+      onfocus="placeholder=''"
+      onblur="placeholder='Search the user'"
+    />
+  </div>
+</div>

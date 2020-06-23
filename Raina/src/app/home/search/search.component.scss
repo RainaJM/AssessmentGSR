@@ -1,0 +1,35 @@
+.search-wrap {
+  background-image: url("/assets/images/Abackground.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+input:focus {
+  outline: none;
+}
+
+.search-input {
+  width: 30%;
+  height: 65px;
+  border-radius: 34px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  border: solid 1px #d0d0d0;
+  background-color: #ffffff;
+  padding: 20px;
+  float: right;
+  margin-right: 10px;
+  input {
+    width: 72%;
+    height: 100%;
+    border: 0px;
+    margin-left: 10px;
+    font-size: 21px;
+  }
+  i {
+    color: grey;
+    font-size: 21px;
+  }
+}

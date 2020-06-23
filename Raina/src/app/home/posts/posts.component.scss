@@ -1,0 +1,12 @@
+.container-fluid {
+  background: aliceblue;
+  h4 {
+    margin: 0;
+    padding: 15px 0px 0px 0px;
+    text-decoration: underline;
+  }
+  .posts-wrap {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

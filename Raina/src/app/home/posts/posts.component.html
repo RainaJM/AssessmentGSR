@@ -1,0 +1,13 @@
+<div class="container-fluid">
+  <h4>{{ userData.name }}</h4>
+  <div class="posts-wrap">
+    <div
+      class="col-md-4 col-sm-4 col-xs-4"
+      *ngFor="let post of userPosts"
+      style="margin-top: 40px;"
+    >
+      <h5>{{ post.title }}</h5>
+      <p style="font-size: 15px;">{{ post.body }}</p>
+    </div>
+  </div>
+</div>
